@@ -1,0 +1,18 @@
+{
+  "name": "riddhidanceacademy",
+  "version": "1.1.1",
+  "description": "This is Riddhi Kashyap's dance website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rishu Kashyap",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14",
+    "nodemon": "^2.0.9",
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,39 @@
+#contact{
+    /* height: 500px; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+
+
+input{
+   width:30vw;
+   margin: 10px;
+   padding: 10px;
+   font-size: 16px;
+   border: 2px solid purple;
+   border-radius: 10px;
+   outline: none;
+}
+
+
+#submit{
+    padding: 12px 18px !important;
+    margin: 12px !important;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+
+}
+
+#submit:hover{
+    /* background-color: green; */
+    cursor: pointer;
+}

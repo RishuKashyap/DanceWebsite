@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block content
+    
+    section#introSection 
+        h1 Welcome to Riddhi's Dance Academy
+        p EAT SLEEP DANCE REPEAT
+    section#missionSection 
+        h1 Our Mission
+        div.card 
+            h3 Dance the way you like
+            img(src="/static/like.jpg", alt="dance the way you like")
+        div.card 
+            h3 Dance and live happily
+            img(src="/static/happy.jpg", alt="dance and live happily")
+        div.card 
+            h3 Dance and stay healthy
+            img(src="/static/health.jpg", alt="dance and stay healthy")
+    section#sponsersSection 
+        h1 Our Sponsers
+        div.container
+            div.box 
+                img(src="/static/nike.jpg", alt="NIKE")
+                h3 NIKE
+            div.box 
+                img(src="/static/unicef.png", alt="UNICEF")
+                h3 UNICEF
+            div.box 
+                img(src="/static/voice.png", alt="THE VOICE")
+                h3 THE VOICE
+            div.box 
+                img(src="/static/sabya.jpg", alt="SABYASACHI")
+                h3 SABYASACHI
+    
+    
+

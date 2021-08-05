@@ -1,0 +1,25 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+        include ../static/styleContact.css
+block content 
+    section#contact
+      form(action='/contact' method='POST')
+        h1 Contact Us
+        input#name.box(type='text' name='name' placeholder='Name' required='')
+        br
+        input#email.box(type='number' name='age' placeholder='Age' required='')
+        br
+        input#phno.box(type='text' name='gender' placeholder='Gender' required='')
+        br
+        input#password.box(type='phone' name='mobile' placeholder='Mobile number' required='')
+        br
+        input#password.box(type='text' name='address' placeholder='Address here' required='')
+        br
+        input#submit(type='submit' value='Submit')
+   

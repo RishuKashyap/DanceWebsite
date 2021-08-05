@@ -1,0 +1,54 @@
+doctype html
+html
+    head 
+        title Riddhi's Dance Academy
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        style
+            include ../static/style.css
+
+    body
+        nav#navbar.top 
+            ul 
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/contact") Contact Us]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Faq]
+        section#introSection 
+            h1 Welcome to Riddhi's Dance Academy
+            p EAT SLEEP DANCE REPEAT
+        section#missionSection 
+            h1 Our Mission
+            div.card 
+                h3 Dance the way you like
+                img(src="/static/like.jpg", alt="dance the way you like")
+            div.card 
+                h3 Dance and live happily
+                img(src="/static/happy.jpg", alt="dance and live happily")
+            div.card 
+                h3 Dance and stay healthy
+                img(src="/static/health.jpg", alt="dance and stay healthy")
+        section#sponsersSection 
+            h1 Our Sponsers
+            div.container
+                div.box 
+                    img(src="/static/nike.jpg", alt="NIKE")
+                    h3 NIKE
+                div.box 
+                    img(src="/static/unicef.png", alt="UNICEF")
+                    h3 UNICEF
+                div.box 
+                    img(src="/static/voice.png", alt="THE VOICE")
+                    h3 THE VOICE
+                div.box 
+                    img(src="/static/sabya.jpg", alt="SABYASACHI")
+                    h3 SABYASACHI
+        footer#footer 
+            p #[a(href="/") Join us on facebook]
+            p #[a(href="/") Join us on instagram]
+            p #[a(href="/") Join us on linkedin]
+            h5 copyright reserved 2021-2022
+    script
+        include ../static/index.js
